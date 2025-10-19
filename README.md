@@ -80,4 +80,3 @@ Optional keys like `cell_id`, `risk_value`, `risk_type` can be included and will
   {"cell_id": "SA_Grid_003", "latitude": -34.9250, "longitude": 138.5980, "risk_value": 120, "risk_type": "FBI"}
 ]
 
-<img width="1600" height="1034" alt="image" src="https://github.com/user-attachments/assets/281395e1-fbc0-4c0e-b84d-5ecdf35dff4c" />
