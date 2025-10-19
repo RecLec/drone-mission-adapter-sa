@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+jinja2>=3.0
+python-multipart
+aiofiles

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drone Mission Adapter (Australia)</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Unified Drone Mission Adapter</h1>
+        <hr>
+
+        <form id="uploadForm" enctype="multipart/form-data">
+            <p>Drag & Drop High-Risk Area JSON File Here or Click to Browse:</p>
+            <div id="dropZone">
+                <p id="dropZoneText">Drop JSON file here</p>
+                <input type="file" id="fileInput" name="risk_file" accept=".json" required style="display: none;">
+            </div>
+            <p id="fileNameDisplay" class="file-name"></p>
+
+            <div class="parameters">
+                <h2>Mission Parameters</h2>
+                <div class="param-group">
+                    <label for="altitude">Altitude (metres AGL):</label>
+                    <input type="number" id="altitude" name="altitude_m" value="60" min="1" required>
+                </div>
+                <div class="param-group">
+                    <label for="hoverTime">Hover Time (seconds):</label>
+                    <input type="number" id="hoverTime" name="hover_time_s" value="120" min="0" required>
+                </div>
+            </div>
+
+            <button type="submit" id="submitButton">Generate Mission File</button>
+        </form>
+
+        <div id="statusArea">
+            <h2>Status</h2>
+            <div id="progressBarContainer" style="display: none;">
+                 <div id="progressBar"></div>
+                 <p id="progressText">Processing...</p>
+            </div>
+            <p id="statusMessage">Waiting for input file...</p>
+            <a id="downloadLink" href="#" style="display: none;" download>Download Mission File</a>
+        </div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>

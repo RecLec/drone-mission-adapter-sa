@@ -1,0 +1,7 @@
+[
+    {"cell_id": "SA_Grid_001", "latitude": -34.9285, "longitude": 138.6007, "risk_value": 75, "risk_type": "probability"},
+    {"cell_id": "SA_Grid_002", "latitude": -34.9310, "longitude": 138.6030, "risk_value": 90, "risk_type": "IC"},
+    {"cell_id": "SA_Grid_003", "latitude": -34.9250, "longitude": 138.5980, "risk_value": 120, "risk_type": "FBI"},
+    {"cell_id": "SA_Grid_004", "latitude": -35.0500, "longitude": 138.7500, "risk_value": 60, "risk_type": "probability"},
+    {"cell_id": "SA_Grid_005", "latitude": -35.0550, "longitude": 138.7550, "risk_value": 88, "risk_type": "probability"}
+]

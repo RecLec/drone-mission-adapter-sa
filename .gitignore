@@ -1,0 +1,18 @@
+# Python Virtual Environment
+.venv/
+venv/
+
+# IDE / OS specific files
+.idea/
+*.pyc
+__pycache__/
+.DS_Store
+
+# Output folders (should not be in source control)
+downloads/
+uploads/
+
+# Optional: PyInstaller build artifacts
+build/
+dist/
+*.spec
