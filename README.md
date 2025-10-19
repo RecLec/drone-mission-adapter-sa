@@ -80,10 +80,4 @@ Optional keys like `cell_id`, `risk_value`, `risk_type` can be included and will
   {"cell_id": "SA_Grid_003", "latitude": -34.9250, "longitude": 138.5980, "risk_value": 120, "risk_type": "FBI"}
 ]
 
-Output File Format
-The tool generates a standard GeoJSON FeatureCollection. Each high-risk point is represented as a Point Feature. The properties of each point include the name, description (with risk info if available), specified altitude (as altitude_m_agl), and hover time (hover_time_s).
-
-This .geojson file can typically be imported as a mission plan or waypoint file into GCS software that supports GeoJSON or KML import (you might need to convert GeoJSON to KML using online tools or GIS software if your specific GCS only accepts KML).
-
-License
-This project is licensed under the MIT License.
+<img width="1600" height="1034" alt="image" src="https://github.com/user-attachments/assets/281395e1-fbc0-4c0e-b84d-5ecdf35dff4c" />
